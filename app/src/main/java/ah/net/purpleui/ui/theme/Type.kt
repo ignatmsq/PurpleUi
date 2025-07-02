@@ -15,7 +15,7 @@ val NunitoFamily = FontFamily(
 )
 
 val PeachiFamily = FontFamily(
-    Font(R.font.peachi_900, FontWeight.Black)
+    Font(R.font.peachi_black, FontWeight.Black)
 )
 
 // Title style for mantra list
