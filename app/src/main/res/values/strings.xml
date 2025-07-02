@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PurpleUi</string>
+    <string name="play_button_description">Play</string>
+    
+    <!-- Button texts -->
+    <string name="open_mantras_list">Открыть список мантр</string>
+    <string name="open_long_mantras_list">Открыть длинный список мантр</string>
+    <string name="open_empty_mantras_list">Открыть пустой список мантр</string>
+    
+    <!-- List titles -->
+    <string name="mantras_list_title">Список мантр</string>
+    <string name="long_mantras_list_title">Длинный список мантр</string>
+    <string name="empty_mantras_list_title">Пустой список мантр</string>
+    
+    <!-- Other texts -->
+    <string name="empty_list_text">Список пуст</string>
+    <string name="shuffle">Перемешать</string>
+</resources>
