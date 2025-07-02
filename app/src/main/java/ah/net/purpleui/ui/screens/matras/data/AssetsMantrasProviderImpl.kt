@@ -6,7 +6,7 @@ import org.json.JSONObject
 import java.io.IOException
 
 class AssetsMantrasProviderImpl : MantrasProvider {
-    override fun loadMantras(context: Context, fileName: String): List<Mantra> {
+    override suspend fun loadMantras(context: Context, fileName: String): List<Mantra> {
         return try {
             val jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
             val jsonObject = JSONObject(jsonString)
